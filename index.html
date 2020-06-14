@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+
+	<div id="title">Daily Allowance Calculator</div> <br>
+	<form id="ask">
+		<span id="incomebox">
+			<span>Enter Income (monthly)</span> 
+			<input id="incomeinput" type="text" name="earned" placeholder="Income"> 
+			
+		</span>
+		<span id="expensesbox">
+			<span>Enter Expenses (monthly)</span>
+			<input id="expensesinput" type="text" name="spent" placeholder="Expenses">
+		</span>
+
+	</form>
+
+	<div class=calculateBox>
+		<button class="calculateButton" onclick="displayAllowance()">Calculate</button>	
+	</div>
+
+
+		<div class="allowance"></div>
+
+
+
+
+<script type="text/javascript" src="script2.js"></script>
+</body>
+</html>
